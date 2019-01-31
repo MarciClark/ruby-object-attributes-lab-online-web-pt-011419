@@ -1,13 +1,19 @@
 class Person
-  def initialize(name)
+  
+  def name=(name)
     @name = name
   end
- 
+  
   def name
     @name
   end
-end
- 
-cher = Person.new("Cher")
-cher.name
 
+  def job=(job)
+    @job = job
+  end 
+
+  def job 
+    @job
+  end 
+  
+end
